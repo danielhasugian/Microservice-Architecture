@@ -26,6 +26,7 @@ Teknik bekerja dengan cara memecah service besar menjadi service kecil yang dapa
 * Apakah arsitektur sudah sesuai ?
 * Bagaimana dengan pengembangan terhadap fitur-fitur baru ?
 * Bagaimana dengan request client yang padat?
+
 Dari case diatas, dapat diambil kesimpulan bahwa perlu perencanaan yang matang sangatlah diperlukan sebelum membangun suatu aplikasi. Microservices merupakan arsitektur yang dapat menjawab issue-issue tersebut. Dengan melakukan pemecahan service menjadi service kecil dapat menurunkan kinerja service
 
 Contoh ilustrasi, Ketika membangun aplikasi ecommerce yang dimana dibagi menjadi service-service kecil seperti payment, order, barang, user, dll.
@@ -36,7 +37,7 @@ Contoh ilustrasi, Ketika membangun aplikasi ecommerce yang dimana dibagi menjadi
 Dari case diatas dapat dilihat bahwa service yang bekerja adalah service yang sesuai dengan bisnisnya dan bagaimana bila dalam service tersebut banyak permintaan pasti akan mungkin terjadi overloaded dan blocking, untuk hal ini service yang mempunyai bobot paling berat dapat direplika sehingga kinerja dari bisnis tersebut tetaplah berjalan normal.
 
 ## Conclusion
-Microservice merupakan suatu teknik untuk membuat aplikasi agar tidak rentan terhadap lingkungan dan user traffic.
+Microservice merupakan suatu teknik untuk membuat aplikasi dapat berjalan maksimal dan mudah untuk mengembangkan fitur baru.
 
 ## Refrences link
 * [Telegeram Microservices Indonesia](https://telegram.dog/msarchitecture)
